@@ -164,6 +164,6 @@ footer {
 
 .contWsp {
     display: flex;
-    width: 33%;
+    width: 50%;
     justify-content: end;
 }
