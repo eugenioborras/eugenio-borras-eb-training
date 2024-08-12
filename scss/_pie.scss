@@ -1,0 +1,20 @@
+/** FOOTER CSS **/
+footer {
+    display: flex;
+    background-color: #D9C3D1;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+    padding: 25px;
+}
+
+.contRedes {
+    display: flex;
+    width: 33%;
+    justify-content: space-around;
+}
+
+.contWsp {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
