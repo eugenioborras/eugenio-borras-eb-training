@@ -17,7 +17,7 @@ header {
   border-radius: 25px;
 }
 
-#contenedor {
+.contenedor {
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -57,9 +57,12 @@ main {
   font-weight: 800;
   text-align: justify;
 }
-
 main section article p {
   margin: 20px;
+}
+main img {
+  border-start-end-radius: 25px;
+  border-start-start-radius: 25px;
 }
 
 .tituloSecundario {
@@ -71,38 +74,15 @@ main section article p {
   background-color: white;
 }
 
-main img {
-  border-start-end-radius: 25px;
-  border-start-start-radius: 25px;
-}
-
 .contenedor2 {
   display: flex;
   align-items: center;
   justify-content: unset;
 }
 
-.mainP {
-  padding: 1%;
-  width: 50%;
-  height: 100%;
-}
-
 .titleSec {
   display: flex;
   justify-content: space-around;
-}
-
-.parrafoBody {
-  display: flex;
-  width: 33%;
-  height: 33%;
-}
-
-.pie-img {
-  display: flex;
-  justify-content: end;
-  margin-right: 50px;
 }
 
 .accordion-body {

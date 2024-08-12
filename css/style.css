@@ -18,7 +18,7 @@ header {
     border-radius: 25px;
 }
 
-#contenedor {
+.contenedor {
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -85,28 +85,9 @@ main img {
     justify-content: unset;
 }
 
-.mainP {
-    padding: 1%;
-    width: 50%;
-    height: 100%;
-
-}
-
 .titleSec {
     display: flex;
     justify-content: space-around;
-}
-
-.parrafoBody {
-    display: flex;
-    width: 33%;
-    height: 33%;
-}
-
-.pie-img {
-    display: flex;
-    justify-content: end;
-    margin-right: 50px;
 }
 
 .accordion-body {

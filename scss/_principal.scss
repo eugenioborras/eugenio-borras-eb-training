@@ -6,10 +6,16 @@ main {
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
     text-align: justify;
-}
 
-main section article p {
-    margin: 20px;
+    section article p {
+        margin: 20px;
+    }
+
+    img {
+        border-start-end-radius: 25px;
+        border-start-start-radius: 25px;
+    }
+
 }
 
 .tituloSecundario {
@@ -21,11 +27,6 @@ main section article p {
     background-color: white;
 }
 
-main img {
-    border-start-end-radius: 25px;
-    border-start-start-radius: 25px;
-}
-
 .contenedor2 {
 
     display: flex;
@@ -33,29 +34,11 @@ main img {
     justify-content: unset;
 }
 
-.mainP {
-    padding: 1%;
-    width: 50%;
-    height: 100%;
-
-}
-
 .titleSec {
     display: flex;
     justify-content: space-around;
 }
 
-.parrafoBody {
-    display: flex;
-    width: 33%;
-    height: 33%;
-}
-
-.pie-img {
-    display: flex;
-    justify-content: end;
-    margin-right: 50px;
-}
 
 .accordion-body {
     background-color: D9C3D1;
@@ -81,6 +64,7 @@ main img {
     --bs-accordion-active-color: var(--bs-primary-text-emphasis);
     --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
 }
+
 .mapa {
     display: flex;
     justify-content: center;
@@ -91,6 +75,7 @@ main img {
     display: flex;
     justify-content: center;
 }
+
 .p-align {
     display: flex;
     justify-content: center;
