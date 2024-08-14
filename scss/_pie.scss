@@ -18,3 +18,6 @@ footer {
     width: 50%;
     justify-content: end;
 }
+.heartbeat {
+	animation: heartbeat 1.5s ease-in-out 3s infinite both;
+}
