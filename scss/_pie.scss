@@ -15,13 +15,18 @@ footer {
 
 .contWsp {
     display: flex;
-    width: 50%;
+    width: 33%;
     justify-content: end;
 }
+
 .heartbeat {
 	animation: heartbeat 1.5s ease-in-out 3s infinite both;
 }
-
+.copy{
+    display: flex;
+    width: 33%;
+    justify-content: end;
+}
 .scaleIcon:hover {
 transform: scale(1.2,1.2);
 }
