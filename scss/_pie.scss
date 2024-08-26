@@ -13,6 +13,11 @@ footer {
     justify-content: space-around;
 }
 
+.imgRedes{
+    width: 25px;
+    height: 25px;
+}
+
 .contWsp {
     display: flex;
     width: 33%;
@@ -26,6 +31,10 @@ footer {
     display: flex;
     width: 33%;
     justify-content: end;
+    align-items: center;
+}
+footer h4 {
+    font-size: 10px;
 }
 .scaleIcon:hover {
 transform: scale(1.2,1.2);
